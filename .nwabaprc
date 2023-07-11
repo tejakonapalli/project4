@@ -1,0 +1,14 @@
+{ 
+
+    "base": "./dist", 
+    "conn_usestrictssl" : false, 
+    "conn_server": "http://amswscm0040.usda.gov:8000",
+    "conn_client" : "210", 
+    "conn_user": "konapallit",        
+    "conn_password": "Password@1",   
+    "abap_package": "ZWBSCM",      
+    "abap_transport": "RD2K906306",
+    "abap_bsp": "Zrd2_SACprojtr",  
+    "abap_bsp_text": "SAC Project from VS code"    
+
+} 
