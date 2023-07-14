@@ -1,0 +1,1 @@
+sap.ui.define(["./BaseController"],function(e){"use strict";return e.extend("project4sacrd2.project4.controller.NotFound",{onLinkPressed:function(){this.getRouter().navTo("worklist")}})});

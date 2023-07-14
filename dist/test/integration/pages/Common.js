@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(e){"use strict";return e.extend("project4sacrd2.project4.test.integration.pages.Common",{theUnitNumbersShouldHaveTwoDecimals:function(t,r,s,n){var o=/^-?\d+\.\d{2}$/;return this.waitFor({controlType:t,viewName:r,success:function(t){e.assert.ok(t.every(function(e){return o.test(e.getNumber())}),s)},errorMessage:n})}})});
